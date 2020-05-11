@@ -1,0 +1,43 @@
+.acordion {
+background: #165593;
+width: 80%;
+color: white;
+padding: 10px 10px;
+margin: 20px auto;
+border: 2px solid #9d392b;
+box-shadow:0px 2px darkblue;
+display: block;
+text-align: left;
+margin-bottom:2px;
+margin-top:0px;
+}
+.acordion:hover {
+  background-color: white;
+  text-decoration: none;
+  color:black;
+  cursor: pointer;
+}
+.panel {
+  position: relative;
+  padding: 10px 10px;
+  display: none;
+  width:80%;
+  margin-top:1px;
+  margin-left:10%;
+  margin-right:10%;
+  background-color: #f4e1d6;
+  overflow: hidden;
+  border: 2px solid #9d392b;
+}
+.faq {
+background: #9d392b;
+width: 80%;
+color: white;
+padding: 5px 5px;
+margin: 20px auto;
+border: 2px solid darkblue;
+display: block;
+text-align: center;
+margin-bottom:0px;
+margin-top:0px;
+}
